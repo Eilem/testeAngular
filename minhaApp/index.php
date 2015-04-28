@@ -15,7 +15,7 @@
             
         </header>
         
-        <section>
+        <section ng-controller="ListarCtrl">
             <div >
                 <a href="#/listar">Listar</a>
             </div>
@@ -27,7 +27,5 @@
         <footer>
             
         </footer>
-        
- 
     </body>
 </html>

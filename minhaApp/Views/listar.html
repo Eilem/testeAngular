@@ -1,3 +1,10 @@
 <div>
-   teste do Listando
+    <div>
+        <label>Filtrar: <input ng-model="filtro"/></label>
+    </div>
+    <ul>
+        <li ng-repeat="mercadoria in mercadorias | filter:filtro">
+            {{ mercadoria.titulo }}
+        </li>
+    </ul> 
 </div>
